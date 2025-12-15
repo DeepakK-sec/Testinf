@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DEEPAK | Trust & Safety + SOC</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #000;
+      color: #fff;
+      font-family: 'Courier New', monospace;
+      overflow-x: hidden;
+    }
+
+    nav {
+      padding: 2rem 0;
+      text-align: center;
+      letter-spacing: 2px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 1.5rem;
+      font-size: 0.95rem;
+      opacity: 0.85;
+      transition: opacity 0.3s;
+    }
+
+    nav a:hover {
+      opacity: 1;
+    }
+
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 0 2rem;
+    }
+
+    .name {
+      font-size: 6rem;
+      font-weight: bold;
+      margin-bottom: 1.2rem;
+      letter-spacing: 4px;
+    }
+
+    .tagline {
+      font-size: 1.3rem;
+      letter-spacing: 5px;
+      opacity: 0.85;
+    }
+
+    /* Optional Wave Divider */
+    .wave {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100px;
+      transform: rotate(180deg);
+      z-index: 10;
+    }
+
+    @media (max-width: 768px) {
+      .name { font-size: 4rem; letter-spacing: 2px; }
+      .tagline { font-size: 1rem; letter-spacing: 3px; }
+      nav a { margin: 0 1rem; font-size: 0.85rem; }
+    }
+
+    @media (max-width: 480px) {
+      .name { font-size: 2.8rem; }
+      nav { padding: 1.5rem 0; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#about">ABOUT</a>
+    <a href="#experience">EXPERIENCE</a>
+    <a href="#contact">CONTACT</a>
+  </nav>
+
+  <div class="hero">
+    <div class="name">DEEPAK</div>
+    <div class="tagline">TRUST &amp; SAFETY SPECIALIST | CLOUD SECURITY | SOC ANALYST</div>
+  </div>
+
+  <!-- Optional: Add a subtle wave at the bottom for visual depth -->
+  <svg class="wave" viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+    <path d="M0 120s288-80 720-80 720 80 720 80V0H0z" fill="#111" />
+  </svg>
+
+</body>
+</html>
